@@ -1,0 +1,8 @@
+White:
+#F5F5F5
+Teal:
+#48CFCB
+Marine:
+#229799
+Grey:
+#424242
