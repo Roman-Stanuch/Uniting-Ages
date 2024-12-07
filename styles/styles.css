@@ -32,14 +32,15 @@ h1 {
     grid-template-columns: 1fr 1fr;
     row-gap: 5vh;
     width: 50vw;
-    height: 200vh;;
+    height: fit-content;
+    padding-bottom: 5vh;
 }
 
 #main-line {
-    position: absolute;
-    align-self: center;
+    position: fixed;
     justify-self: center;
-    height: 460vh;
+    height: 100vh;
+    top: 0;
     z-index: -1;
 }
 
