@@ -31,7 +31,7 @@ h1 {
     grid-template-rows: repeat(8, 1fr);
     grid-template-columns: 1fr 1fr;
     row-gap: 5vh;
-    width: 50vw;
+    width: 100vw;
     height: fit-content;
     padding-bottom: 5vh;
 }
