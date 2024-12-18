@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-h1 {
+#top-bar h1 {
     color: #F5F5F5;
     text-align: center;
     font-size: 3em;
@@ -28,7 +28,7 @@ h1 {
 #main-grid {
     margin-top: 15vh;
     display: grid;
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     grid-template-columns: 1fr 1fr;
     row-gap: 5vh;
     width: 100vw;
@@ -44,8 +44,11 @@ h1 {
     z-index: -1;
 }
 
-.entry-img {
+#main-grid a {
     justify-self: center;
+}
+
+.entry-img {
     max-height: 35vh;
     max-width: 22vw;
     object-fit: contain;   
