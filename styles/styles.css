@@ -7,7 +7,7 @@ body {
     font-family: "Ubuntu", serif;
     color: #F5F5F5;
     text-align: center;
-    font-size: 3em;
+    font-size: auto;
 }
 
 #top-bar {
