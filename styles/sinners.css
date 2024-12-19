@@ -1,0 +1,19 @@
+#underworld {
+    height: 100vh;
+    background-image: url("../assets/sinners/background_1.gif");
+    background-size: cover;
+    background-position-x: 50vw;
+}
+
+#alone {
+    height: 100vh;
+    background-image: url("../assets/sinners/feast.jpg");
+    background-size: cover;
+}
+
+#together {
+    height: 100vh;
+    background-image: url("../assets/sinners/church.jpg");
+    background-size: cover;
+    position: relative;
+}

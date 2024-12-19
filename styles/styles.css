@@ -11,6 +11,7 @@ body {
 }
 
 #top-bar {
+    z-index: 100;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,6 +61,14 @@ body {
     color: white;
     text-align: center;
     padding: 10%;
+}
+
+.quote {
+    color: white;
+    position: relative;
+    font-family: "Ubuntu", serif;
+    text-align: center;
+    position: relative;
 }
 
 a {
