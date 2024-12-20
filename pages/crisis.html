@@ -1,24 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/styles.css" />
-    <link rel="stylesheet" href="../styles/gradient.css" />
-    <title>Uniting Ages</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <div id="top-bar">
-      <h1>"The Crisis, Number 1" | <a href="../index.html">Return to Timeline</a></h1>
-    </div>
-    <div style="height: 10vh;"></div>
-    <img src="../assets/civil_disobedience.jpg">
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../styles/styles.css" />
+  <link rel="stylesheet" href="../styles/sinners.css" />
+  <link rel="stylesheet" href="../styles/animations.css" />
+
+  <title>Uniting Ages</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body style="background-color: black">
+  <div id="top-bar">
+    <h1>
+      "The Crisis, Number 1" |
+      <a href="../index.html">Return to Timeline</a>
+    </h1>
+  </div>
+  <div style="height: 10vh"></div>
+
+  <div id="underworld">
+    <img src="../assets/sinners/falling.png" class="animation slide-bottom" style="position: absolute; top: 4vh; left: 3vw;" />
+    <h1 class="quote animation slide-top" style="position: absolute; bottom: 5vh; right: 10vw;">
+      "Your wickedness makes you as it were<br>
+      heavy as lead, and to tend downwards with<br>
+      great weight and pressure towards Hell"
+    </h1>
+  </div>
+  <div id="alone">
+    <img src="../assets/sinners/away_man.png" class="animation slide-bottom" style="height: 120vh; position: absolute; bottom: -10vh; " />
+    <h1 class="quote animation slide-top" style="position: absolute; top: 20vh; left: 50vw;">
+      "How awful is it to be left behind at such a day! To see so many others<br>
+      feasting while you are pining and perishing! To see so many rejoicing and<br>
+      singing for joy of heart while you have cause to mourn for sorrow of heart,<br>
+      and howl for vexation of spirit!"
+    </h1>
+  </div>
+  <div id="together">
+    <img src="../assets/sinners/community.png" style="position: absolute; bottom: 0; width: 75vw;" />
+    <h1 class="quote animation slide-top" style="position: absolute; top: 20vh; left: 60vw; color:black;">
+      "And now you have an extraordinary<br>
+      opportunity, a day wherein Christ has<br>
+      thrown the door of mercy wide open...<br>
+      Many are daily coming from the east,<br>
+      west, north and south; many that were<br>
+      very lately in the same miserable<br>
+      condition that you are in"
+    </h1>
+  </div>
+
+  <script src="../scripts/sinners.js"></script>
+</body>
+
 </html>
