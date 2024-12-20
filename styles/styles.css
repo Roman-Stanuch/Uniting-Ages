@@ -69,6 +69,7 @@ body {
     font-family: "Ubuntu", serif;
     text-align: center;
     position: relative;
+    overflow-y: hidden;
 }
 
 a {

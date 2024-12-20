@@ -1,11 +1,14 @@
-// Get the div element with the ID "monkey".
-const monkey = document.querySelectorAll(".slide-top")[2];
+let animationElements = document.querySelectorAll(".animation");
 
 checkVisibility = () => {
-    // Check if the div element is scrolled into view.
-    if (monkey.getBoundingClientRect().top < window.innerHeight) {
-        monkey.classList.add("active");
-        window.removeEventListener('scroll', checkVisibility)
+    for (let i = 0; i < animationElements.length; i++) {
+        const element = animationElements[i];
+        if (element.classList.contains("active")) {
+            continue;
+        }
+        if (element.getBoundingClientRect().top < window.innerHeight) {
+            element.classList.add("active");
+        }
     }
 }
 
