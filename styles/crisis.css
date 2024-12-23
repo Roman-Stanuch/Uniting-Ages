@@ -1,15 +1,14 @@
 #dominion {
     height: 100vh;
-    background-image: url("../assets/sinners/background_1.gif");
+    background-image: url("../assets/crisis/streets.png");
     background-size: cover;
-    background-position-x: 50vw;
     overflow-y: hidden;
     position: relative;
 }
 
 #friend {
     height: 100vh;
-    background-image: url("../assets/sinners/feast.jpg");
+    background-image: url("../assets/crisis/sermon.png");
     background-size: cover;
     overflow-y: hidden;
     position: relative;
@@ -17,7 +16,7 @@
 
 #no-matter {
     height: 100vh;
-    background-image: url("../assets/sinners/church.jpg");
+    background-image: url("../assets/crisis/stars.gif");
     background-size: cover;
     position: relative;
     overflow-y: hidden;
