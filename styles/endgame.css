@@ -1,15 +1,14 @@
 #lost {
     height: 100vh;
-    background-image: url("../assets/sinners/background_1.gif");
+    background-image: url("../assets/endgame/lost.png");
     background-size: cover;
-    background-position-x: 50vw;
     overflow-y: hidden;
     position: relative;
 }
 
 #family {
     height: 100vh;
-    background-image: url("../assets/sinners/feast.jpg");
+    background-image: url("../assets/endgame/circle.jpg");
     background-size: cover;
     overflow-y: hidden;
     position: relative;

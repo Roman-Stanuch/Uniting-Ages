@@ -1,15 +1,14 @@
 #war {
     height: 100vh;
-    background-image: url("../assets/sinners/background_1.gif");
+    background-image: url("../assets/civil_disobedience/puppet.jpg");
     background-size: cover;
-    background-position-x: 50vw;
     overflow-y: hidden;
     position: relative;
 }
 
 #government {
     height: 100vh;
-    background-image: url("../assets/sinners/feast.jpg");
+    background-image: url("../assets/civil_disobedience/silence.jpg");
     background-size: cover;
     overflow-y: hidden;
     position: relative;
@@ -17,7 +16,7 @@
 
 #one-step {
     height: 100vh;
-    background-image: url("../assets/sinners/church.jpg");
+    background-image: url("../assets/civil_disobedience/spread.jpg");
     background-size: cover;
     position: relative;
     overflow-y: hidden;

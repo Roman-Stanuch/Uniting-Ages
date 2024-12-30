@@ -1,15 +1,14 @@
 #one {
     height: 100vh;
-    background-image: url("../assets/sinners/background_1.gif");
+    background-image: url("../assets/propaganda/tiger.jpg");
     background-size: cover;
-    background-position-x: 50vw;
     overflow-y: hidden;
     position: relative;
 }
 
 #two {
     height: 100vh;
-    background-image: url("../assets/sinners/feast.jpg");
+    background-image: url("../assets/propaganda/flag_2.jpg");
     background-size: cover;
     overflow-y: hidden;
     position: relative;
@@ -17,7 +16,7 @@
 
 #three {
     height: 100vh;
-    background-image: url("../assets/sinners/church.jpg");
+    background-image: url("../assets/propaganda/factory.jpg");
     background-size: cover;
     position: relative;
     overflow-y: hidden;
